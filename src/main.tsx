@@ -6,7 +6,7 @@ import App from './router.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/wave-animation/">
       <App />
     </BrowserRouter>
   </StrictMode>,
